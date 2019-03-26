@@ -2,6 +2,16 @@
   <body bgcolor="#0CADBD">
   <head>
   <h1>The Miner 36 Website<h1/>
+    <br/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Upload Files</title>
     <head/>
+    <form method="post" enctype="multipart/form-data">
+  <input type="file" name="files[]" multiple />
+  <input type="submit" value="Upload File" name="submit" />
+</form>
+    <script src="upload.js"></script>
     <body/>
   <html/>
